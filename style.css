@@ -1,0 +1,108 @@
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center; 
+}
+
+h1 {
+  color: #333333;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.control-button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button {
+  background-color: #4caf50;
+}
+
+.pause-button {
+  background-color: #ff9800;
+}
+
+.reset-button {
+  background-color: #f44336;
+}
+
+#initialTime {
+  width: 50px; 
+  text-align: center; 
+}
+
+.input-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label-for-input {
+  margin-bottom: 5px;
+}
+
+.input-button-group {
+  display: flex;
+  align-items: center;
+}
+
+#editTime {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#timePopup {
+  display: none;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#popupSave {
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#timer {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20px;
+}

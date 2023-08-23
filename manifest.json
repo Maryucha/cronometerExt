@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Cronômetro V3",
+  "version": "1.0",
+  "description": "Uma extensão de cronômetro simples usando Manifest V3",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

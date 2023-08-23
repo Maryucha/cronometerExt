@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cronômetro</h1>
+    <div class="input-panel">
+      <label for="initialTime">Tempo inicial:</label>
+      <div class="input-button-group">
+        <input type="number" id="initialTime" value="180" min="1" step="1">
+        <button id="editTime" class="edit-button"><i class="fas fa-edit"></i></button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start" class="control-button play-button"><i class="fas fa-play"></i></button>
+      <button id="pause" class="control-button pause-button"><i class="fas fa-pause"></i></button>
+      <button id="reset" class="control-button reset-button"><i class="fas fa-undo-alt"></i></button>
+    </div>
+    <div class="timer-display">
+      <div id="timer">03:00</div>
+    </div>
+  </div>
+
+  <!-- Popup for time configuration -->
+  <div id="timePopup" class="popup">
+    <label>Novo tempo:</label>
+    <input type="number" id="popupInput" min="1" step="1">
+    <button id="popupSave">Salvar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
